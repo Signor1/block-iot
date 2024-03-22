@@ -1,6 +1,7 @@
 
 import { Map, Marker, ZoomControl } from "pigeon-maps"
 import { useEffect, useState } from "react";
+import Loader from "./Loader";
 
 const MapWrapper = () => {
     const [coordinates, setCoordinates] = useState<[number, number] | null>(null);
@@ -44,7 +45,7 @@ const MapWrapper = () => {
                         <ZoomControl />
                     </Map>
                 )}
-                {!coordinates && <p>Loading map...</p>}
+                {!coordinates && <Loader />}
             </div>
         </section>
     )
