@@ -38,7 +38,7 @@ const MapWrapper = () => {
     return (
         <section className="w-full flex flex-col gap-6 py-24">
             <h1 className="md:text-4xl text-2xl text-white font-fira">Reading data at location</h1>
-            <div className="w-full lg:h-[550px] md:h-[400px] h-[350px] md:p-6 p-4 bg-bodyLight rounded-lg border border-myPurple/80">
+            <div className="w-full lg:h-[550px] md:h-[400px] h-[350px] md:p-6 p-4 bg-bodyLight rounded-lg border border-myPurple/50">
                 {coordinates && (
                     <Map boxClassname="w-full h-full" defaultCenter={coordinates} defaultZoom={13}>
                         <Marker width={50} anchor={coordinates} />

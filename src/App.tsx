@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import MapWrapper from "./components/MapWrapper"
 import MaxWrapper from "./components/MaxWrapper"
 import NavBar from "./components/NavBar"
+import Reports from "./components/Reports"
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <NavBar />
         <Hero />
         <MapWrapper />
+        <Reports />
       </MaxWrapper>
     </main>
   )

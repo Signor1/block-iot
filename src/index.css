@@ -8,3 +8,8 @@
 .AppBg {
   background-image: linear-gradient(to top right, #101010, #191c27, #1c0826, #3a104d);
 }
+
+.pie-chart-container .apexcharts-pie-label {
+  color: #fff !important;
+  /* Change label color here */
+}
